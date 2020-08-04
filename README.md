@@ -5,8 +5,8 @@
 https://www.dabeaz.com/ply/ la versión 3.11
 Pararse donde se descargo el archivo y en una terminal tipear
 ```sh
-$  tar -xzvf ply-3.11.tar.xz
-$ cd ply
+$ tar -xzvf ply-3.11.tar.xz
+$ cd ply-3.11/ply
 $ sudo python3 install setup.py
 ```
 
