@@ -2,7 +2,7 @@ import ply.lex as lex
 import ply.yacc as yacc
 import sys
 
-# mi lista de tockens
+# mi lista de tokens
 tokens = [
 	'CORCHETE_IZQ',
 	'CORCHETE_DER',
@@ -18,18 +18,41 @@ tokens = [
 	'CHAR'
 ]
 
-t_CORCHETE_IZQ = r'\['
-t_CORCHETE_DER = r'\]'
-t_PARENTESIS_IZQ = r'\('
-t_PARENTESIS_DER = r'\)'
-t_LLAVES_IZQ = r'\{'
-t_LLAVES_DER = r'\}'
-t_COMILLAS = r'\"'
-t_ESPACIO = r'\s'
-
 #t_ignore = r' '
 
 count = 0
+
+def t_CORCHETE_IZQ(t):
+	r'\['
+	return t
+
+def t_CORCHETE_DER(t):
+	r'\]'
+	return t
+
+def t_PARENTESIS_IZQ(t):
+	r'\('
+	return t
+
+def t_PARENTESIS_DER(t):
+	r'\)'
+	return t
+
+def t_LLAVES_IZQ(t):
+	r'\{'
+	return t
+
+def t_LLAVES_DER(t):
+	r'\}'
+	return t
+
+def t_COMILLAS(t):
+	r'\"'
+	return t
+
+def t_ESPACIO(t):
+	r'\s'
+	return t
 
 def t_JUGADA(t):
 	r'[PNBRQK]?[a-h]?[1-8]?x?[a-h][1-8](\+|\#)?|O-O|O-O-O'					#no sé muy bien a que se refiere
@@ -61,7 +84,6 @@ def p_start(p):
 	start 	: partida start 
 			| partida 	
 	'''
-
 	print(p[1])
 
 
@@ -70,7 +92,8 @@ def p_partida(p):
 	partida 	: metadata B
 
 	'''
-	p[0] = (p[2], p[1], p[3])
+	pass
+	#p[0] = (p[1], p[1])
 
 def p_metadata(p):
 	'''
@@ -78,12 +101,15 @@ def p_metadata(p):
 				| A1
 
 	'''
+	pass
+
 
 def p_A1(p):
 	'''
 	A1 		: CORCHETE_IZQ A2 ESPACIO COMILLAS A2 COMILLAS CORCHETE_DER
 
 	'''
+	pass
 
 def p_A2(p):
 	'''
@@ -91,12 +117,14 @@ def p_A2(p):
 			| CHAR
 
 	'''
+	pass
 
 def p_B(p):
 	'''
 	B 		: B1 RESULTADO
 
 	'''
+	pass
 
 def p_B1(p):
 	'''
@@ -104,7 +132,8 @@ def p_B1(p):
 			| RONDA JUGADA comentario  
 			| lamda
 
-	''' 		
+	''' 
+	pass		
 
 def p_comentario(p):
 	'''
@@ -113,6 +142,7 @@ def p_comentario(p):
 				| lamda
 
 	'''
+	pass
 
 def p_B5(p):
 	'''
@@ -121,6 +151,7 @@ def p_B5(p):
 			| lamda 
 
 	'''	
+	pass
 
 def p_texto(p):
 	'''
@@ -128,6 +159,7 @@ def p_texto(p):
 			| lamda
 
 	'''
+	pass
 
 def p_lamda(p):
 	'''
@@ -135,28 +167,29 @@ def p_lamda(p):
 	'''
 	pass
 
-def p_error(p):
-     print("Syntax error in input!")
+#def p_error(p):
+#     print("Syntax error in input!")
 
 
 parser = yacc.yacc()
 
-s = """[Event "Renova Group Grand Prix 2013"] 
-1. d4 d5 2. c4 c6 3. Nc3 1-0"""
+s = """ [ Event "Renova Group Grand Prix 2013"] 
+
+1. d4 {que} d5 {onda} 2. c4 ((asd)  da) c6 3. Nc3 1-0"""
 
 #while True:
 #	try:
 #	except EOFError:
 #		break
 
-lexer.input(s)
+#lexer.input(s)
  
  # Tokenize
-while True:
-	tok = lexer.token()
-	if not tok:
-		break			# No more input
-	print(tok)
+#while True:
+#	tok = lexer.token()
+#	if not tok:
+#		break			# No more input
+#	print(tok)
 
 
-#parser.parse(s)
+parser.parse(s)
