@@ -12,9 +12,12 @@ $ sudo python3 install setup.py
 
 ## Ejecutar
 
-Para ejecutar el ejemplo lo haces con **python3 ejemplo.py**, al parecer parcea con LALR(1) de entrada, no estoy seguro como se puede cambiar todavia.
+Hay que correr el ejecutable **python3 pgn_parser.py** que lee de la entrada estandar. En la salida indica cual es la primera jugada mas repetida y el maximo nivel de anidamiento de comentario con jugada, de la siguiente manera:
+```
+Primera jugada mas repetida: d4
+Maximo nivel de anidamiento de comentario con jugada: 4
+```
 
-Después de la ejecución larga un archivo **parser.out** donde muestra las tablas, y otro **parser.py** el cual es el código que la construye. (estos dos archivos tal vez no no sirven mucho)
+En caso de detectar algun error durante el analisis se indica antes con un comentario.
 
-
-
+Para obtener info mas detallada del lexer se puede ejecutar con **python3 lexer.py**.
