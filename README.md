@@ -14,7 +14,7 @@ $ sudo python3 install setup.py
 
 Hay que correr el ejecutable **python3 pgn_parser.py** que lee de la entrada estandar. En la salida indica cual es la primera jugada mas repetida y el maximo nivel de anidamiento de comentario con jugada, de la siguiente manera:
 ```
-Primera jugada mas repetida: d4
+Primera jugada mas repetida: d4 ( 31 veces )
 Maximo nivel de anidamiento de comentario con jugada: 4
 ```
 

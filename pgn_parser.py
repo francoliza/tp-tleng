@@ -93,5 +93,6 @@ if __name__ == '__main__':
     parser.parse(s)
 
     if len(primeras_jugadas) > 0:
-        print('Primera jugada mas repetida:', max(primeras_jugadas, key=primeras_jugadas.get))
+        mas_repetida = max(primeras_jugadas, key=primeras_jugadas.get)
+        print('Primera jugada mas repetida:', mas_repetida, '(', primeras_jugadas[mas_repetida], 'veces )' if primeras_jugadas[mas_repetida] > 1 else 'vez )')
     print('Maximo nivel de anidamiento de comentario con jugada:', max_level)

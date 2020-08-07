@@ -1,0 +1,81 @@
+[Event "SuperGM"]
+[Site "Linares ESP"]
+[Date "2002.02.24"]
+[Round "2"]
+[White "Anand, Viswanathan"]
+[Black "Vallejo Pons, Francisco"]
+[Result "1/2-1/2"]
+[ECO "C67"]
+[WhiteElo "2757"]
+[BlackElo "2629"]
+[Annotator "Hathaway, Mark"]
+
+1. e4 e5 { Unlike a Sicilian or French Defense here Black firmly places a pawn
+in front of Pe4, and says "no further". White has tried some extreme measures,
+such as a King's Gambit, to get rid of Pe5, but the more common approach these
+days is to apply pressure to Black's position all over the board. } 2. Nf3 Nc6
+(2...Nf6 { (Petrov's Defense) has also been fairly popular amongst the top GMs
+ever since Karpov and Kramnik achieved moderate successes with it.}) 3. Bb5 {
+Spanish Game or Ruy Lopez (named after a Spanish priest who was at one time one
+of the world's best players -- White threatens to undermine Pe5 by capturing
+Nc6. 3. Bc4 (Giuoco Piano or Italian Game) has also been played a lot. } 3...
+Nf6 { This is the Berlin Defense. It's not been considered sufficient to
+achieve more than equality, but Kramnik used it very successfully against
+Kasparov in the Braingames World Championship match. Whether it's the
+appropriate "weapon" against Anand is questionable. } (3...a6 { has been the
+most common move for many years.}) 4. O-O { White offers Pe4 as a way of
+forcing open the e-file when White has castled and Black hasn't. } 4... Nxe4 5.
+d4 { trying to get rid of Pe5 while Ne4 blocks it's path. But, Black can let
+White capture and leave a pawn on e5. So, Black can keep the e-file closed.
+White still tries to get at Ke8. } (5.Bxc6 bxc6 6.Qe2 Nc5 7.Qxe5+ Ne6 { keeps
+the e-file closed and Black has the two bishops in exchange for the doubled
+c-file pawns.}) 5... Nd6 { Forcing a resolution of the pressure this way is
+considered safest. } (5...Be7 6.d5 { is more complicated }) 6. Bxc6 dxc6 7.
+dxe5 (7.Nxe5 { opens the e-file, but doesn't achieve much more than that.It
+would certainly be a sound move worth playing to face Black with a different
+puzzle.}) 7... Nf5 8. Qxd8+ { This is the main advantage of 7. dxe5. It isn't
+so easy to clobber Ke8 with queens off the board, but White has an easier time
+developing and has a five to four king-side pawn majority. Black, on the other
+hand, has the two bishops. } 8... Kxd8 9. Nc3 (9.Ng5 { forces ...Kd8-e8,
+keeping the king in the middle of the Black empire or ...Bc8-e6 where White can
+capture it to regain one of the bishops.More useful, and what most players aim
+for, is to have a Pf5 to prevent ...Be6 before threatening Pf7.This isn't so
+easy to achieve.}) ({ A variant on the theme of 9.Ng5 is } 9.Rd1+ Ke8 (9...Bd7
+$2 10.Ng5 (10.e6 fxe6 11.Ne5 Bd6 12.Nf7+ Ke7 13.Nxh8 Rxh8 { isn't as bad for
+Black because it speeds Black's development }) 10...Nh6 11.e6 fxe6 12.Nxe6+ Kc8
+13.Nxf8 Rxf8)) 9... Ne7 { I suppose he is clearing the way for ...Bc8-f5, but
+those squares on the king-side in front are risky to occupy. White's pawns
+might race forward. } (9...h6 { prevents Nf3-g5 and/or prepares ...Bc8-e6 })
+10. Re1 h6 11. h3 Ng6 12. Bd2 { This is a modest move which leaves the bishop
+capable of moving to c3 to back up Pe5 or simply guarding square f4. One
+noticable key thing about the move is it doesn't weaken his queen-side the way
+the b2-b3, Bc1-b2 plan does. } 12... Bd7 13. Ne4 { With Ph3 White restrains
+Black's light-square bishop. With Bd2 & Ne4 he restrains Black's dark-square
+bishop. This is sensible, but far from an indication of how he might win the
+game. I suppose he's just playing a slightly better position and will squeeze
+Black while he develops more pieces. } 13... Kc8 { Black is far from completing
+his development, but if White doesn't execute a concrete attack he'll have
+time. That was the idea Kramnik utilized (as Black) to slow Kasparov. } 14. Ng3
+c5 15. Nh5 { This looks promising: he holds Bf8 in place. } 15... b5 16. Nh2
+Kb7 17. f4 Nh4 18. Re2 { prepares Bd2-e1 to kick Nh4 and to defend Pc2 while
+keeping square f3 firmly in hand } ({ The more forceful way to execute the plan
+is to kick Nh4 around to gain time.} 18.g3 Nf5 19.g4 Nd4 20.Rac1 Bc6 21.Kf2
+Rd8) 18... Bc6 { now Re2 and Nh5 are aligned perfectly for a Bf3 to fork! All
+Black needs is for 19. g3 Nf3+ 20. Nxf3 Bxf3. Also, the d-file is cleared, so
+Ra8 can come into play. } 19. c3 (19.Be1 Nf5 20.c3) 19... g6 20. Nf6 Be7 21.
+Be1 Nf5 { Black would rather keep lines closed, at least until all his pieces
+are equal to White's. Then he might seek to open lines for his bishops. }
+(21...Bxf6 $6 22.exf6 Nf5 { makes Pc5 weaker and opens the e-file for Re2.Only
+the question of whether Pf6 might be weak is worth considering.It serves well
+to support a White piece landing on e7.Probably g2-g4-g5 to support Pf6 is all
+that's needed.Certainly Nh2-g4-e5 would make the trade on f6 favor White.}) 22.
+Ne4 Ng7 { Black is aware of the importance of White achieving f4-f5 to mobilize
+Pe5. It looks a little awkward, but White's maneuvers behind the pawns (Pe5 &
+Pf4) look a little awkward too. } 23. Ng4 Rad8 24. Ngf2 (24.Bf2 Ne6 25.g3 h5
+26.Ngf6 h4) 24... h5 25. Bd2 (25.g3) 25... h4 { by preventing g2-g3 he keeps
+Pe5 & Pf4 slightly weak and always in need of piece support } 26. Be3 Ne6 27.
+Nf6 a5 28. N2e4 b4 29. Ng5 { It has taken White a lot of maneuvering moves to
+threaten Pf7, and it is completely ineffective. } 29... Rd3 { This is a strong
+indication Black has his king-side well organized for defense. If 30. Nxf7 Rf8
+Black will regain the pawn by capturing at f6. This game is another indication
+of how difficult it can be to get at Black's thorny position. } 1/2-1/2
